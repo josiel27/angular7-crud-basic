@@ -11,7 +11,7 @@ export class TodoService {
     }
 
     fetchTodos() {
-        return this.http.get<Todo[]>('https://jsonplaceholder.typicode.com/todos');
+        return this.http.get<Todo[]>('https://raw.githubusercontent.com/josiel27/jsontest/master/date.json');
     }
 
     deleteTodo(id: number) {
